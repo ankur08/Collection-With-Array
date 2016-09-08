@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollectionViewCell.h"
+@interface ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource>
 
-@interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UICollectionView *CollectionView;
 
 @end
 

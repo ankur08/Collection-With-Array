@@ -15,6 +15,8 @@
 		925F699F1D37DA7800CDF232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925F699D1D37DA7800CDF232 /* LaunchScreen.storyboard */; };
 		925F69AA1D37DA7800CDF232 /* collectionDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F69A91D37DA7800CDF232 /* collectionDataTests.m */; };
 		925F69B51D37DA7900CDF232 /* collectionDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F69B41D37DA7900CDF232 /* collectionDataUITests.m */; };
+		925F69C81D37DB8200CDF232 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F69C61D37DB8200CDF232 /* CollectionViewCell.m */; };
+		925F69C91D37DB8200CDF232 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925F69C71D37DB8200CDF232 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		925F69B01D37DA7800CDF232 /* collectionDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		925F69B41D37DA7900CDF232 /* collectionDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionDataUITests.m; sourceTree = "<group>"; };
 		925F69B61D37DA7900CDF232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925F69C51D37DB8200CDF232 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		925F69C61D37DB8200CDF232 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		925F69C71D37DB8200CDF232 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				925F699D1D37DA7800CDF232 /* LaunchScreen.storyboard */,
 				925F69A01D37DA7800CDF232 /* Info.plist */,
 				925F698F1D37DA7700CDF232 /* Supporting Files */,
+				925F69C51D37DB8200CDF232 /* CollectionViewCell.h */,
+				925F69C61D37DB8200CDF232 /* CollectionViewCell.m */,
+				925F69C71D37DB8200CDF232 /* CollectionViewCell.xib */,
 			);
 			path = collectionData;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				925F699F1D37DA7800CDF232 /* LaunchScreen.storyboard in Resources */,
 				925F699C1D37DA7800CDF232 /* Assets.xcassets in Resources */,
+				925F69C91D37DB8200CDF232 /* CollectionViewCell.xib in Resources */,
 				925F699A1D37DA7800CDF232 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				925F69971D37DA7700CDF232 /* ViewController.m in Sources */,
 				925F69941D37DA7700CDF232 /* AppDelegate.m in Sources */,
+				925F69C81D37DB8200CDF232 /* CollectionViewCell.m in Sources */,
 				925F69911D37DA7700CDF232 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
